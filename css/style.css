@@ -1,0 +1,73 @@
+:root {
+  --brand-color: #2196f3;
+  --hover-color: red;
+  --background-color: aquamarine;
+}
+
+h1.header {
+  color: blue;
+}
+div.header-text {
+  background-color: var(--brand-color);
+}
+div.footer-text {
+  background-color: pink;
+}
+p.paragraph {
+  font-size: 24px;
+}
+a.link {
+  color: green;
+}
+div.header-text p a.link {
+  color: var(--brand-color);
+}
+
+div.header-text p a.link:hover {
+  color: var(--hover-color);
+}
+
+body {
+  background-color: var(--background-color);
+}
+div.image img {
+  height: 400px;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+h1.lists {
+  color: red;
+}
+
+table.tabela1 th {
+  background-color: coral;
+}
+
+table.tabel1 tr:nth-child(even) {
+  background-color: azure;
+}
+
+table.tabela1 tr:nth-child(odd) {
+  background-color: cyan;
+}
+
+ul.memories li:nth-child(even) {
+  color: blue;
+}
+
+ul.memories li:nth-child(odd) {
+  color: blueviolet;
+}
+
+#id-blok-01 {
+  width: 800px;
+  height: 500px;
+  background-image: url(../images/hansen.jpg);
+  background-color: aqua;
+  background-repeat: no-repeat;
+}
